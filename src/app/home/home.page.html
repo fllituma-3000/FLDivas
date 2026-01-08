@@ -1,0 +1,133 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      FLDivas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">FLDivas</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12">
+          <h1>Bienvenidos a FLDivas</h1>
+          <p>Tu destino para la moda única en Feria Libre El Arenal</p>
+          <p>Descubre una colección exclusiva de ropa que combina estilo, calidad y precios accesibles. En FLDivas, transformamos tu guardarropa con prendas diseñadas para destacar en cualquier ocasión.</p>
+          <ion-button size="large" color="light" fill="outline">Explorar Colección</ion-button>
+          <ion-button size="large" color="primary" fill="solid" (click)="goToInicio()">Acceder a la App</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <!-- About Section -->
+  <ion-grid class="about-section">
+    <ion-row>
+      <ion-col size="12">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Sobre FLDivas</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>FLDivas es una empresa apasionada por la moda, ubicada en el vibrante mercado de Feria Libre El Arenal. Fundada con la visión de ofrecer prendas de vestir que reflejen la diversidad y el estilo único de nuestros clientes, nos especializamos en ropa para mujeres que buscan comodidad, elegancia y tendencias actuales.</p>
+            <p>Nuestra colección incluye vestidos, blusas, pantalones, accesorios y mucho más, todos seleccionados con cuidado para garantizar la mejor calidad y durabilidad. Visítanos y descubre por qué FLDivas es el lugar favorito para la moda en Feria Libre.</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Products Section -->
+  <ion-grid class="products-section">
+    <ion-row>
+      <ion-col size="12">
+        <h2>Nuestros Productos Destacados</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-icon name="shirt-outline" size="large" color="light"></ion-icon>
+            <ion-card-title>Vestidos Elegantes</ion-card-title>
+            <ion-card-subtitle>Para ocasiones especiales</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <p>Descubre nuestros vestidos diseñados para hacerte sentir única. Disponibles en diversos estilos y colores.</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-icon name="shirt-outline" size="large" color="light"></ion-icon>
+            <ion-card-title>Blusas Modernas</ion-card-title>
+            <ion-card-subtitle>Comodidad y estilo diario</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <p>Blusas versátiles perfectas para el día a día, con tejidos suaves y diseños innovadores.</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-icon name="shirt-outline" size="large" color="light"></ion-icon>
+            <ion-card-title>Pantalones y Jeans</ion-card-title>
+            <ion-card-subtitle>Ajuste perfecto</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <p>Desde jeans clásicos hasta pantalones de vestir, encuentra el ajuste ideal para tu silueta.</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card>
+          <ion-card-header>
+            <ion-icon name="bag-outline" size="large" color="light"></ion-icon>
+            <ion-card-title>Accesorios</ion-card-title>
+            <ion-card-subtitle>Completa tu look</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <p>Bolsos, cinturones, joyería y más para complementar cualquier outfit.</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Location Section -->
+  <ion-grid class="location-section">
+    <ion-row>
+      <ion-col size="12">
+        <h2>Encuéntranos en Feria Libre El Arenal</h2>
+        <p>Visita nuestro stand en el corazón de Feria Libre El Arenal, donde la moda se encuentra con la tradición del mercado. Estamos ubicados en una zona céntrica, fácil de acceder y rodeados de otros vendedores apasionados.</p>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5259.273143848848!2d-79.03031102706002!3d-2.8964241110750377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cd22bc982d3d5b%3A0x57cb63e96aae69a0!2sFeria%20Libre%20El%20Arenal!5e0!3m2!1ses-419!2sec!4v1767891429993!5m2!1ses-419!2sec" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2026 FLDivas. Todos los derechos reservados.</p>
+    <p>¡Síguenos en redes sociales para las últimas tendencias!</p>
+    <div class="social-links">
+      <ion-icon name="logo-facebook"></ion-icon>
+      <ion-icon name="logo-instagram"></ion-icon>
+      <ion-icon name="logo-twitter"></ion-icon>
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </div>
+  </div>
+</ion-content>

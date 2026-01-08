@@ -1,0 +1,78 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">inicio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="hero">
+    <h1>¡Bienvenido a FLDivas!</h1>
+    <p>Descubre una experiencia única con nuestra aplicación de moda.</p>
+    <ion-button fill="outline" color="light" (click)="goToHome()">Ir al Inicio</ion-button>
+  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" size-md="6">
+        <ion-card button="true" (click)="explore()">
+          <ion-card-header>
+            <ion-card-title>
+              <ion-icon name="compass-outline"></ion-icon>
+              Explorar
+            </ion-card-title>
+            <ion-card-subtitle>Descubre nuevas funcionalidades</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Navega por las diferentes secciones de la app y encuentra lo que necesitas.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size="12" size-md="6">
+        <ion-card button="true" (click)="goToProfile()">
+          <ion-card-header>
+            <ion-card-title>
+              <ion-icon name="person-outline"></ion-icon>
+              Perfil
+            </ion-card-title>
+            <ion-card-subtitle>Gestiona tu cuenta</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Actualiza tu información personal y preferencias.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-card button="true" (click)="goToStore()">
+          <ion-card-header>
+            <ion-card-title>
+              <ion-icon name="storefront-outline"></ion-icon>
+              Tienda
+            </ion-card-title>
+            <ion-card-subtitle>Compra la mejor ropa</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Explora nuestra colección exclusiva de prendas de vestir en FLDivas.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="footer">
+    <p>&copy; 2026 FLDivas. Todos los derechos reservados.</p>
+    <div class="social-links">
+      <ion-icon name="logo-facebook"></ion-icon>
+      <ion-icon name="logo-instagram"></ion-icon>
+      <ion-icon name="logo-twitter"></ion-icon>
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </div>
+  </div>
+</ion-content>
