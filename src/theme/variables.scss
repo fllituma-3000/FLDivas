@@ -1,2 +1,10 @@
-// For information on how to create your own theme, please refer to:
-// https://ionicframework.com/docs/theming/
+:root {
+  --ion-color-primary: #ff3b7f;
+  --ion-color-primary-rgb: 255, 59, 127;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #e03570;
+  --ion-color-primary-tint: #ff5c94;
+
+  --ion-font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont;
+}
